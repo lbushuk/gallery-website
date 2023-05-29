@@ -2,13 +2,6 @@ body {
   background-color: rgb(36, 36, 36);
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 8px;
-}
-
 .row {
   display: flex;
 }
@@ -16,4 +9,12 @@ img {
 .column {
   flex: 33.33%;
   padding: 5px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom:60px;
 }
